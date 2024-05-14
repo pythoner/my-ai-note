@@ -1,6 +1,6 @@
 ##### 问题背景
 
-在windows平台上搭建了conda环境， 想把环境信息导出， 然后通过docker打包， 这样就可以避免每次从头搭建环境。
+在windows平台上搭建了conda环境， 想把环境信息导出， 然后通过docker打包， 这样就可以避免每次从零开始搭建环境。
 
 下面是通过*conda env export -n env_name -f filename*导出得环境信息:
 
